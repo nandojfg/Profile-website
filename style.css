@@ -1,0 +1,176 @@
+/*
+Name: Juan Gonzalez
+Date: 10.15.19
+Section: CSE 190z
+This is the style.css page for my portfolio of web development
+work. It is used by all pages in my portfolio to give the site
+a consistent look and feel.
+*/
+
+
+body {
+  background-color: rgb(230,230,250);
+  font-size: 18px;
+}
+
+/*Home page*/
+
+/*The size of the uw logos at the header*/
+.imaghead {
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+}
+
+/* Colors from: https://www.rapidtables.com/web/color/purple-color.html
+Get this information from Loni website*/
+.anav {
+  text-align: center;
+  background-color: rgb(230,230,250);
+  margin-top:20px;
+  height:100px;
+  width:100%;
+  position:fixed;
+  opacity: 0.6;
+  max-width:100%;
+  min-width:1000px;
+  z-index:9999;
+  display: flex;
+  justify-content: center;
+}
+/* Colors from: https://www.rapidtables.com/web/color/purple-color.html
+Get this information from Loni website*/
+.nav {
+  color: 	rgb(75,0,130);
+  text-align: center;
+  font-family: fantasy;
+  height:20%;
+  font-size: 30px;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 40px;
+}
+/*I talked with Raul Villanueva about how make the line shorter*/
+#topline{
+  width: 80%;
+}
+/*my picture*/
+#fotouw {
+  float: left;
+  width: 400px;
+  padding: 50px;
+  margin-left: 45px;
+  border-radius: 55px;
+  }
+/*my name*/
+#name{
+  text-align: center;
+  color: rgb(75,0,130);
+}
+/*my logo*/
+#latam{
+  font-size: 27px;
+}
+/*my description*/
+.text1{
+  text-align: justify;
+  font-size: 20px;
+  margin-right: 50px;
+}
+/*title of the text*/
+#videotext{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(75,0,130);
+}
+/*description of the video*/
+#watch{
+  text-align: center;
+  font-size: 20px;
+}
+/*style for the video*/
+/* I learned how to center a video in: https://stackoverflow.com/questions/5879209/how-to-center-
+html5-videos*/
+#video{
+  width: 660px;
+  height: 415px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+/*keep my footer at the bottom*/
+footer{
+  bottom:0;
+}
+/*Image footer*/
+.imagfooter{
+  width: 20px;
+  height: 20px;
+}
+
+/*Resume page*/
+
+
+
+/*division of my resume*/
+.divisores {
+  display: flex;
+}
+/*style of the pictures of the companies*/
+.logopics {
+  margin: 20px;
+  width: 180px;
+  height: 180px;
+  border-radius: 5px;
+}
+/*line between topics in the resume*/
+.line{
+  width: 90%;
+  background-color: black;
+  height: 2px;
+}
+/*all the bold words*/
+/*find this resources from: https://stackoverflow.com/questions/9058425/how-to-bold-words-within-a-
+paragraph-in-html-css*/
+.bold{
+  font-weight:bold;
+}
+
+
+/*Stay in touch page*/
+
+
+/*The background repeat and cover get it from my peer Aaron Carter */
+/*Img source from https://wallpapercave.com/purple-background-hd*/
+.imgtouch{
+  background-image: url("img/fontpurple.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*title with contact me*/
+.contacme {
+  text-align: center;
+  color: white;
+  font-family: fantasy;
+  letter-spacing: 1px;
+  font-size: 50px;
+}
+/*social media accounts*/
+/*learned in https://www.w3schools.com/css/css3_flexbox.asp*/
+.media {
+  display: flex;
+  justify-content: center;
+}
+/*photos of my social media*/
+.socialpics{
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+/*footer for last page it has to be white*/
+.white{
+  color: white
+}
